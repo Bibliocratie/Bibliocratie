@@ -19,7 +19,7 @@ Docs
 * Designed to be deployed on Heroku, with PostgreSQL DB
 * Crowdfunding, crowdsourcing and social network app
 * Distributed task queue : Celery & AMQP
-* Message queue : Redis by django-websocket-redis
+* Message queue : Redis & django-websocket-redis
 * Search function : Watson
 
 
