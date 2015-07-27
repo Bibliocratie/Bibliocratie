@@ -1,0 +1,27 @@
+{
+  "name": "object-path",
+  "version": "0.6.0",
+  "main": "index.js",
+  "keywords": [
+    "deep",
+    "path",
+    "access",
+    "bean",
+    "object"
+  ],
+  "ignore": [
+    "test.js",
+    "coverage",
+    "*.yml"
+  ],
+  "homepage": "https://github.com/mariocasciaro/object-path",
+  "_release": "0.6.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.6.0",
+    "commit": "be8e17ce434b04d63399779c0a5dc478f7c7c605"
+  },
+  "_source": "git://github.com/mariocasciaro/object-path.git",
+  "_target": "~0.6.0",
+  "_originalSource": "object-path"
+}

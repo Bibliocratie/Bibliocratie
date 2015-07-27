@@ -1,0 +1,42 @@
+{
+  "name": "angular-progress-button",
+  "version": "0.2.0",
+  "homepage": "https://github.com/SonicHedgehog/angular-progress-button",
+  "authors": [
+    "Jakob Krigovsky <jakob.krigovsky@gmail.com>"
+  ],
+  "description": "Buttons with built-in progress bars for AngularJS",
+  "main": [
+    "src/progress-button.js",
+    "src/progress-button.css"
+  ],
+  "keywords": [
+    "angular",
+    "angularjs",
+    "progress",
+    "button"
+  ],
+  "license": "BSD-2-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "/tmp/",
+    "bower_components",
+    "test",
+    "/karma.conf.js",
+    "/package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SonicHedgehog/angular-progress-button.git"
+  },
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "55df5cd76d96cb3f861be62edbcbbb2d4eeb31a8"
+  },
+  "_source": "git://github.com/SonicHedgehog/angular-progress-button.git",
+  "_target": "~0.2.0",
+  "_originalSource": "angular-progress-button"
+}

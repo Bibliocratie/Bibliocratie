@@ -1,0 +1,49 @@
+{
+  "name": "lt-ie-9",
+  "version": "0.1.0",
+  "description": "A suite of client-side libraries for IE6-8",
+  "keywords": [
+    "ie",
+    "ie6",
+    "ie7",
+    "ie8",
+    "ie9",
+    "fix",
+    "compatibility",
+    "legacy",
+    "outdated",
+    "selectivizr",
+    "respond",
+    "html5shiv"
+  ],
+  "main": "lt-ie-9.js",
+  "homepage": "https://github.com/shinnn/lt-ie-9",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/lt-ie-9.git"
+  },
+  "authors": [
+    {
+      "name": "Shinnosuke Watanabe",
+      "url": "https://github.com/shinnn"
+    }
+  ],
+  "license": "https://github.com/shinnn/lt-ie-9/blob/master/LICENSES.md",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "gulpfile.js",
+    "component.json",
+    "package.json"
+  ],
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "1c37e671412e4e21137cb2a431818f88e9d07eb9"
+  },
+  "_source": "git://github.com/shinnn/lt-ie-9.git",
+  "_target": "~0.1.0",
+  "_originalSource": "lt-ie-9"
+}

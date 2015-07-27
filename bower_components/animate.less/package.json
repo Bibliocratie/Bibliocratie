@@ -1,0 +1,26 @@
+{
+  "name": "animate.less",
+  "version": "2.2.0",
+  "description": "LESS cross-browser animation library. Ready for Twitter Bootstrap. Originally created by Dan Eden.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/machito/animate.less.git"
+  },
+  "keywords": [
+    "less",
+    "animate",
+    "animate.css",
+    "hipster",
+    "animation",
+    "bootstrap"
+  ],
+  "author": "machito",
+  "homepage": "https://github.com/machito/animate.less",
+  "devDependencies": {
+    "less": "^2.4.0",
+    "less-plugin-clean-css": "^1.5.0"
+  },
+  "scripts":{
+    "build": "lessc animate.less > animate.css && lessc --clean-css='--compatibility=ie8 --advanced' animate.less > animate.min.css"
+  }
+}

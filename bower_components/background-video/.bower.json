@@ -1,0 +1,28 @@
+{
+  "name": "background-video",
+  "description": "HTML 5 video tags as background",
+  "main": "jquery.backgroundvideo.js",
+  "keywords": [
+    "jquery",
+    "html5",
+    "video"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/Victa/HTML5-Background-Video",
+  "_release": "ace6777592",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ace6777592b23673003b628109107483f63051cc"
+  },
+  "_source": "git://github.com/Victa/HTML5-Background-Video.git",
+  "_target": "*",
+  "_originalSource": "background-video"
+}

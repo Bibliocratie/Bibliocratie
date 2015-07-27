@@ -1,0 +1,7 @@
+app/
+node_modules/
+bower_components/
+.sass-cache/
+_includes/
+_site/
+coverage/

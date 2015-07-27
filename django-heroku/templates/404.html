@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}Erreur 404 | Bibliocratie{% endblock %}
+
+
+{% block content %}
+    
+<section id="quatre" style="background-image: url({% static "images/home_icono/train.jpg" %});">
+    <section class="wrapper no-top-pad w-f-md">
+        <div class="row padder padder-v">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1 col-centered">
+                <div class="text-center bande-titre">
+                    <div class="titre">
+                        404<br><span>page introuvable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="citation">
+                	Je n'aurai pas à me reprocher de ne pas avoir indiqué le chemin à un voyageur égaré.<br><br>
+                	<span class="auteur">Balzac, <i>Physiologie du mariage</i></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <div class="chemin_aide">
+                    <ul class="menu list-inline">
+                        <li><a href="http://wwww.bibliocratie.com" data-toggle="tab"><i class="fa icon icon-home"></i>&nbsp;&nbsp;accueil</a></li>
+                        <li><a href="{% url "livre_list" %}" data-toggle="tab"><i class="fa icon icon-book-open"></i>&nbsp;&nbsp;souscriptions</a></li>
+                        <li><a href="{% url "aide" %}" data-toggle="tab"><i class="fa icon icon-support"></i>&nbsp;&nbsp;aide</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</section>
+
+{% endblock %}

@@ -1,0 +1,55 @@
+.progress-button {
+	display: inline-block;
+	font-size: 24px;
+	color: #fff !important;
+	text-decoration: none !important;
+	padding: 14px 60px;
+	line-height: 1;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+
+	box-shadow: 0 1px 1px #ccc;
+	border-radius: 2px;
+
+	background-color: #51b7e6;
+	background-image: -webkit-linear-gradient(top, #51b7e6, #4dafdd);
+	background-image: linear-gradient(top, #51b7e6, #4dafdd);
+}
+
+.progress-button-text {
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+/* The colorful bar that grows depending on the progress */
+
+.progress-button-bar {
+	background-color: #e667c0;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	position: absolute;
+	z-index: 1;
+
+	border-radius: 0 0 2px 2px;
+
+	-webkit-transition: width 0.5s, height 0.5s;
+	transition: width 0.5s, height 0.5s;
+}
+
+/* The bar can be either horizontal, or vertical */
+
+.progress-button-bar.progress-button-horizontal {
+	height: 100%;
+	border-radius: 2px;
+}
+
+.progress-button-bar.progress-button-vertical {
+	height: 0;
+	top: 0;
+	width: 100%;
+	border-radius: 2px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "angular-packery",
+  "version": "1.0.4",
+  "author": "http://github.com/sungard-labs/angular-packery/graphs/contributors",
+  "homepage": "http://github.com/sungard-labs/angular-packery",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sungard-labs/angular-packery.git"
+  },
+  "main": "dist/packery.js",
+  "keywords": [
+    "packery",
+    "angular",
+    "layout",
+    "bin",
+    "binpacking",
+    "packing",
+    "outlayer",
+    "sungard",
+    "sungard-labs"
+  ],
+  "license": "MIT",
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.4",
+    "commit": "aacad979a1563b1ffe56895c9200a838401a2267"
+  },
+  "_source": "git://github.com/SunGard-Labs/angular-packery.git",
+  "_target": "~1.0.4",
+  "_originalSource": "angular-packery"
+}

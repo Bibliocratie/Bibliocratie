@@ -1,0 +1,32 @@
+{
+  "name": "loaders.css",
+  "version": "0.0.2",
+  "authors": [
+    "Connor Atherton <c.liam.atherton@gmail.com>"
+  ],
+  "description": "Delightful and performant pure css loading animations.",
+  "main": "loaders.css",
+  "keywords": [
+    "loader",
+    "animations",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ConnorAtherton/loaders.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "c08a4190c1cdf4b8d75b6c951655c2f55d8a6363"
+  },
+  "_source": "git://github.com/ConnorAtherton/loaders.css.git",
+  "_target": "~0.0.2",
+  "_originalSource": "loaders.css"
+}

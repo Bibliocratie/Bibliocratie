@@ -1,0 +1,6 @@
+cd /Users/Exlivris3/Devel/bibliocratie/apps/bibliocratie
+/Users/Exlivris3/Devel/bibliocratie/manage.py makemessages --locale=fr_FR
+/Users/Exlivris3/Devel/bibliocratie/manage.py compilemessages --locale=fr_FR
+/Users/Exlivris3/Devel/bibliocratie/manage.py makemessages --locale=en_US
+/Users/Exlivris3/Devel/bibliocratie/manage.py compilemessages --locale=en_US
+

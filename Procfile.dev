@@ -1,0 +1,10 @@
+web: python manage.py runserver
+worker: python manage.py celery worker -B -l info
+
+worker: celery -A django-heroku worker -l -B info
+web: uwsgi uwsgi-heroku-emperor.ini
+
+clock: celery -A django-heroku beat
+
+web: newrelic-admin run-program uwsgi --ini uwsgi-heroku-emperor.ini
+worker: newrelic-admin run-program celery -A django-heroku worker -l info -B

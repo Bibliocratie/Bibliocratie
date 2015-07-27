@@ -1,0 +1,9 @@
+{
+  "name": "Bibliocratie",
+  "description": "La revolution textuelle",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "private": true,
+  "dependencies": {"bower": "*"}
+}

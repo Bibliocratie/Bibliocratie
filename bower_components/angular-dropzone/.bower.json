@@ -1,0 +1,30 @@
+{
+  "name": "angular-dropzone",
+  "version": "0.1.1",
+  "homepage": "https://github.com/sandbochs/angular-dropzone",
+  "authors": [
+    "Elliot Shiu <elliot@sandbochs.com>"
+  ],
+  "description": "angular-dropzone is a AngularJS directive for Dropzone.js",
+  "main": "lib/ng-dropzone.js",
+  "keywords": [
+    "angular-dropzone",
+    "ng-dropzone",
+    "dropzone.js",
+    "dropzone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test"
+  ],
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "47a03408e717b2ab0dd784f6020c542a60550f86"
+  },
+  "_source": "git://github.com/sandbochs/angular-dropzone.git",
+  "_target": "~0.1.1",
+  "_originalSource": "angular-dropzone"
+}

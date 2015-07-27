@@ -1,0 +1,21 @@
+{
+  "name": "redactor",
+  "version": "10.0.9",
+  "homepage": "http://imperavi.com/redactor/",
+  "authors": [
+    "Imparavi <http://imperavi.com.au>"
+  ],
+  "description": "A bower package for the Imperavi Redactor WYSIWYG library",
+  "main": "redactor/redactor.min.js",
+  "keywords": [
+    "WYSIWYG"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

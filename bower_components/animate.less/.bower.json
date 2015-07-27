@@ -1,0 +1,14 @@
+{
+  "name": "animate.less",
+  "main": "./animate.less",
+  "homepage": "https://github.com/machito/animate.less",
+  "_release": "7c55cdcdc0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7c55cdcdc0d6e07f793546b96a560f3a7db0fe89"
+  },
+  "_source": "git://github.com/machito/animate.less.git",
+  "_target": "*",
+  "_originalSource": "animate.less"
+}

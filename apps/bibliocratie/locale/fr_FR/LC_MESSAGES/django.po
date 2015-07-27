@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-21 13:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: forms.py:22
+msgid "Please enter a correct email and password. "
+msgstr ""
+
+#: forms.py:23
+msgid "You do not have permission to access the admin."
+msgstr ""
+
+#: forms.py:24
+msgid "This account is inactive."
+msgstr ""
+
+#: forms.py:25
+msgid "Ce compte existe deja"
+msgstr ""
+
+#: forms.py:31 forms.py:44 forms.py:45 forms.py:90 forms.py:105 forms.py:106
+#: forms.py:166 forms.py:176 forms.py:177
+msgid "Email"
+msgstr ""
+
+#: forms.py:32 forms.py:91
+msgid "Password"
+msgstr ""
+
+#: forms.py:47 forms.py:48 forms.py:108 forms.py:109
+#: templates/bibliocratie/login_modal.html:111
+msgid "Mot de passe"
+msgstr ""
+
+#: forms.py:92 templates/bibliocratie/login_modal.html:133
+msgid "Password again"
+msgstr ""
+
+#: forms.py:111 forms.py:112
+msgid "Mot de passe encore"
+msgstr ""
+
+#: forms.py:185
+msgid "Cet utilisateur est inconnu"
+msgstr ""
+
+#: forms.py:216
+msgid "Votre code coupon n'est pas valide "
+msgstr ""
+
+#: forms.py:251 forms.py:252 models.py:72
+msgid "Prenom"
+msgstr ""
+
+#: forms.py:254 forms.py:255 models.py:73
+msgid "Nom"
+msgstr ""
+
+#: forms.py:257 forms.py:258
+msgid "Adresse"
+msgstr ""
+
+#: forms.py:260
+msgid "Complement d\\'adresse"
+msgstr ""
+
+#: forms.py:261
+msgid "Complement d'adresse"
+msgstr ""
+
+#: forms.py:263 forms.py:264 models.py:76
+msgid "Code postal"
+msgstr ""
+
+#: forms.py:266 forms.py:267 models.py:77
+msgid "Ville"
+msgstr ""
+
+#: forms.py:269 forms.py:270 models.py:79
+msgid "Telephone"
+msgstr ""
+
+#: forms.py:282
+msgid "Livrer a une adresse différente?"
+msgstr ""
+
+#: models.py:66
+msgid "Adresse de livraison"
+msgstr ""
+
+#: models.py:67
+msgid "Adresse de facturation"
+msgstr ""
+
+#: models.py:70
+msgid "Type"
+msgstr ""
+
+#: models.py:74
+msgid "Addresse"
+msgstr ""
+
+#: models.py:75
+msgid "Complement d'Addresse"
+msgstr ""
+
+#: models.py:112
+msgid "En Cours"
+msgstr ""
+
+#: models.py:113
+msgid "Validation paiement"
+msgstr ""
+
+#: models.py:114
+msgid "Paye"
+msgstr ""
+
+#: models.py:115
+msgid "Arrete"
+msgstr ""
+
+#: models.py:116
+msgid "Echec Paiement"
+msgstr ""
+
+#: models.py:117 models.py:476 models.py:550
+msgid "Annule"
+msgstr ""
+
+#: models.py:123
+msgid "Commande Number"
+msgstr ""
+
+#: models.py:319
+msgid "in creation"
+msgstr ""
+
+#: models.py:321
+msgid "feedback creation"
+msgstr ""
+
+#: models.py:324
+msgid "in review from bibliocratie before feedback"
+msgstr ""
+
+#: models.py:328
+msgid "feedback time"
+msgstr ""
+
+#: models.py:330
+msgid "last modifications before souscription"
+msgstr ""
+
+#: models.py:332
+msgid "in review from bibliocratie before campaign"
+msgstr ""
+
+#: models.py:335
+msgid "campaign time"
+msgstr ""
+
+#: models.py:337
+msgid "closed. success"
+msgstr ""
+
+#: models.py:339
+msgid "closed. failure"
+msgstr ""
+
+#: models.py:341
+msgid "annule car pour ou autre"
+msgstr ""
+
+#: models.py:355
+msgid "slug"
+msgstr ""
+
+#: models.py:472
+msgid "Panier"
+msgstr ""
+
+#: models.py:473 models.py:547
+msgid "En cours"
+msgstr ""
+
+#: models.py:474 models.py:548
+msgid "Expedie"
+msgstr ""
+
+#: models.py:475 models.py:549
+msgid "Rembourse"
+msgstr ""
+
+#: models.py:546
+msgid "Commande"
+msgstr ""
+
+#: models.py:591
+msgid "Livre"
+msgstr ""
+
+#: models.py:592
+msgid "Atelier"
+msgstr ""
+
+#: models.py:593
+msgid "Tout"
+msgstr ""
+
+#: models.py:597
+msgid "Pourcent"
+msgstr ""
+
+#: models.py:598
+msgid "Reduction"
+msgstr ""
+
+#: models.py:703
+msgid "Genre litteraire"
+msgstr ""
+
+#: models.py:704
+msgid "Technique"
+msgstr ""
+
+#: models.py:712
+msgid "En groupe"
+msgstr ""
+
+#: models.py:713
+msgid "Solo"
+msgstr ""
+
+#: models.py:722
+msgid "30 minutes a 1 heure"
+msgstr ""
+
+#: models.py:723
+msgid "1 a 2 heures"
+msgstr ""
+
+#: models.py:724
+msgid "1 a 3 heures"
+msgstr ""
+
+#: models.py:725
+msgid "2 a 4 heures"
+msgstr ""
+
+#: models.py:726
+msgid "4 a 6 heures"
+msgstr ""
+
+#: models.py:727
+msgid "6 a 10 heures"
+msgstr ""
+
+#: models.py:728
+msgid "10 a 15 heures"
+msgstr ""
+
+#: models.py:740
+msgid "Bronze"
+msgstr ""
+
+#: models.py:741
+msgid "Argent"
+msgstr ""
+
+#: models.py:742
+msgid "Or"
+msgstr ""
+
+#: models.py:743
+msgid "Platinum"
+msgstr ""
+
+#: models.py:744
+msgid "Toutes"
+msgstr ""
+
+#: models.py:820
+msgid "credit ou debit d'avoir"
+msgstr ""
+
+#: models.py:821
+msgid "achat ou remboursement d'un achat sur payline"
+msgstr ""
+
+#: models.py:822
+msgid ""
+"quand on ne peut pas rembourser autrement, virement direct (via payline "
+"aussi)"
+msgstr ""
+
+#: receiver.py:29
+msgid "Commande payée"
+msgstr ""
+
+#: receiver.py:31
+msgid "Commande échouée"
+msgstr ""
+
+#: receiver.py:33
+msgid "Commande arretée"
+msgstr ""
+
+#: receiver.py:35
+msgid "Commande annulée"
+msgstr ""
+
+#: templates/bibliocratie/checkout.html:9
+msgid "Vous avez une question? Joignez-nous de 8h à 22h au 0908070605"
+msgstr ""
+
+#: templates/bibliocratie/checkout.html:12
+msgid "Adresse de Facturation"
+msgstr ""
+
+#: templates/bibliocratie/checkout.html:21
+msgid "Adresse de Livraison"
+msgstr ""
+
+#: templates/bibliocratie/checkout.html:27
+msgid "Votre commande"
+msgstr ""
+
+#: templates/bibliocratie/checkout.html:31
+msgid "Commander"
+msgstr ""
+
+#: templates/bibliocratie/index.html:7
+#: templates/bibliocratie/notif_payline.html:4
+msgid "Bibliocratie | La révolution textuelle"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:17
+msgid "Très heureux de vous revoir"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:27
+#: templates/bibliocratie/menu_profil_content.html:27
+msgid "Se connecter"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:31
+#: templates/bibliocratie/login_modal.html:158
+msgid "Vite un nouveau mot de passe"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:36
+#: templates/bibliocratie/login_modal.html:205
+msgid "Vous n'avez pas encore de compte ?"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:40
+#: templates/bibliocratie/login_modal.html:61
+#: templates/bibliocratie/login_modal.html:209
+msgid "Créer un compte"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:65
+msgid "Bienvenue"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:79
+msgid "Réinitialisez votre mot de passe ?"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:89
+msgid "Courriel"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:93
+#: templates/bibliocratie/login_modal.html:115
+#: templates/bibliocratie/login_modal.html:137
+msgid "Ce champ est obligatoire."
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:96
+msgid "Saisissez une adresse de courriel valable."
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:118
+msgid "this value has at least 3 characters"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:140
+msgid "Ensure this value has at least 3 characters"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:143
+msgid "Vos mots de passe ne sont pas identiques"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:154
+msgid "créer un compte"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:162
+msgid "Vous avez déjà un compte ?"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:166
+msgid "Se (re)connecter"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:187
+msgid "Réinitialiser votre mot de passe"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:191
+msgid "Alors on a oublié son mot de passe ?"
+msgstr ""
+
+#: templates/bibliocratie/login_modal.html:201
+msgid "Réinitialiser"
+msgstr ""
+
+#: templates/bibliocratie/menu_profil_content.html:35
+msgid "Paramètres"
+msgstr ""
+
+#: templates/bibliocratie/menu_profil_content.html:38
+msgid "Profil"
+msgstr ""
+
+#: templates/bibliocratie/menu_profil_content.html:43
+msgid "Notifications"
+msgstr ""
+
+#: templates/bibliocratie/menu_profil_content.html:47
+#: templates/bibliocratie/navigation_gauche.html:48
+msgid "Aide"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:12
+#: templates/bibliocratie/navigation_gauche.html:18
+#: templates/bibliocratie/navigation_gauche.html:79
+msgid "Souscriptions"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:25
+msgid "Pre-lancement"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:31
+msgid "Se lancer"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:38
+msgid "Mode d'emploi"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:57
+msgid "Espace Perso"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:67
+msgid "Mes textes"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:73
+msgid "Bac à sable"
+msgstr ""
+
+#: templates/bibliocratie/navigation_gauche.html:85
+msgid "Publications"
+msgstr ""
+
+#: templates/bibliocratie/notif_payline.html:6
+msgid "Notif payline"
+msgstr ""
+
+#: templates/bibliocratie/panier.html:15
+#, python-format
+msgid ""
+"\n"
+"            <strong>Vous avez <span class=\"count\">"
+"%(basketProductsCount())s</span> produits dans votre\n"
+"                panier</strong>\n"
+"            "
+msgstr ""
+
+#: templates/bibliocratie/panier.html:42
+msgid "appliquer"
+msgstr ""
+
+#: templates/bibliocratie/panier.html:49
+msgid "Valider votre commande"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:5
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:7
+msgid "Log in"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:7
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:11
+msgid "New password:"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:13
+msgid "Confirm password:"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:14
+msgid "Change my password"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:19
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:5
+msgid ""
+"We've emailed you instructions for setting your password. You should be "
+"receiving them shortly."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:7
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
